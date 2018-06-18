@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="icon" href="favicon.ico">
+        <title>Food4All</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/searchDinnerGuest.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" >
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a id="title">Food4All</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a></a></li>
+                <li><a></a></li>
+                <li class="active"><a id="glyphA" href="/"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li><a href="/addDinnerGuest.html">Add Dinner Guest</a></li>
+                <li><a href="searchDinnerGuest.html">Search for Dinner Guest</a></li>
+                <li><a href="verifyIngredients.html">Verify Ingredient Restrictions</a></li>
+            </ul>
+        </div>
+</nav>
+    
+        <br>
+        <br>
+
+        <div class="col-md-5">
+            <h1>Search for Guest</h1>
+            <div class="form" id="firstName">   
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName-text" name="firstName" class="form-control" required>
+                </div>
+                <div class="form" id="lastName">   
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName-text" name="lastName" class="form-control" required>
+                </div>
+
+            <br />
+            <button type="button" class="btn btn-success"  id="clearSearch">Clear Search</button>
+            <button type="button" class="btn btn-success"  id="searchGuest">Submit</button>
+            <br />
+             <br />
+            <div class="container" id="searchResults"></div>
+        </div>
+          <div class="col-md-7">      
+                <img src="noNuts.jpg" alt="noNuts" class="img-responsive pull-center" id="noNuts">
+            </div>
+
+          <div class="col-md-12" id="editFormDiv" style="display: none">
+         <div class ="col-sm-4" id="guestEnterForm">
+            
+            <h1>Edit Dinner Guest</h1>
+            <div class="form" id="firstName">   
+                    <label for="firstNameEdit">First Name:</label>
+                    <input type="text" id="firstName-edit-text" name="firstNameEdit" class="form-control" required>
+                </div>
+                <div class="form" id="lastName">   
+                    <label for="lastNameEdit">Last Name:</label>
+                    <input type="text" id="lastName-edit-text" name="lastNameEdit" class="form-control" required>
+                </div>
+                <div class="form" id="eMail">   
+                    <label for="eMailEdit">E-Mail:</label>
+                    <input type="email" id="eMail-edit-text" name="eMailEdit" class="form-control">
+                </div>
+                <div class="form" id="phone">   
+                    <label for="phoneEdit">Phone Number:</label>
+                    <input type="tel" id="phone-edit-text" name="phoneEdit" class="form-control">
+                </div>
+           
+        </div>
+        <div class ="col-sm-12">
+          <button type="button" class="btn btn-success"  id="updateGuestButton">Update</button>
+        </div>
+        <div class="col-sm-4" id="allergyAdding">
+            <h2>Allergies</h2>
+              <div class="list-group" id="alreadyAllergyList"></div>
+            <div class="list-group" id="allergyList"></div>
+        </div>
+        
+        <div class="col-sm-4" id="intoleranceAdding">
+            <h2>Intolerances</h2>
+            <div class="list-group" id="alreadyIntoleranceList"></div>
+            <div class="list-group" id="intoleranceList"></div>
+        </div>
+        <div class="col-sm-4" id="foodAversionAdding">
+            <h2>Food Aversions</h2>
+            <div class="list-group" id="alreadyFoodAversionList"></div>
+            <div class="list-group"  id="foodAversionList"></div> 
+        </div>    
+          </div>
+        <hr>
+        <div class="col-lg-12" id="footer">
+        <hr />
+        </div>
+        <script src="js/jquery-3.0.0.min.js"></script>
+         <script src="js/searchDinnerGuest.js"></script>
+    </body>
+
+
+</html>

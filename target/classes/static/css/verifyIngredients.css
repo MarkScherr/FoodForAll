@@ -1,0 +1,91 @@
+             .navbar {
+                background-color: #000000;
+            }
+            #glyphA {
+                background-color: #000000;
+            }
+            body {
+                font-family: Ebrima; 
+            }
+            #ingredientAdd-button, #searchForRecipe {
+                background-color: #36c423;
+                color: white;
+            }
+            #title {
+                color: #36c423;
+                font-size: 20px;
+            }
+            .col-lg-3 {
+                width: 500px;
+                margin: auto;
+            }
+            .btn  {
+                background-color: #36c423;
+            }
+            a img{
+                display: block;
+                margin-left: 104.25px;
+                margin-right: 208.5px;
+                width: 50%; 
+                border-radius: 50%;
+            }
+
+            #potatoHappyImage {
+                width: 30%;
+                height: auto;
+                margin-top: 10px;
+                margin-left: 200px;
+                position: fixed;
+                
+            }
+            #potatoGrumpyImage {
+                width: 35%;
+                height: auto;
+                margin-top: -10px;
+                 margin-left: 100px;
+                position: fixed;
+            }
+            h4 {
+                text-align: center;
+                margin-right: auto;
+            }
+      
+            /*courtesy of http://www.cssportal.com/css-tooltip-generator/ */
+            
+            
+             a.tooltips {
+                position: relative;
+                display: inline;
+              }
+              a.tooltips span {
+                position: absolute;
+                width:140px;
+                color: #FFFFFF;
+                background: #000000;
+                height: 24px;
+                line-height: 24px;
+                text-align: center;
+                visibility: hidden;
+                border-radius: 6px;
+                box-shadow: -6px 3px 0px #36C423;
+              }
+              a.tooltips span:after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 100%;
+                margin-top: -8px;
+                width: 0; height: 0;
+                border-left: 8px solid #000000;
+                border-top: 8px solid transparent;
+                border-bottom: 8px solid transparent;
+              }
+              a:hover.tooltips span {
+                visibility: visible;
+                opacity: 1;
+                right: 100%;
+                top: 50%;
+                margin-top: -12px;
+                margin-right: 15px;
+                z-index: 999;
+              }

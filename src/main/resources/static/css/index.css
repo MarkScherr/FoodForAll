@@ -1,0 +1,75 @@
+            .navbar {
+                background-color: #000000;
+            }
+            #glyphA {
+                background-color: #000000;
+            }
+
+            h4 {
+                text-align: center; 
+            }
+            #title {
+                color: #36c423;
+                font-size: 20px;
+            }
+            body {
+                background-color: #000000;
+                background-size: 100%
+            } 
+            html, body {
+                margin: 0; 
+                height: 100%; 
+                
+            }
+      
+            #bgPic {
+                width: 99.2%;    
+                left: 0%;
+                position: fixed;
+                top: -50px;
+                z-index: -2;
+               
+            }
+            #spaghettiPic {
+                width: 400px;
+                position: fixed;
+                bottom: 0px;
+                left:35%;
+                z-index: -1;
+            }
+            
+            #eggPic {
+                width: 215px;
+                position: fixed;
+                top: 130px;
+                left: 49%;
+                z-index: -1;
+            }
+            #peanutPic {
+                width: 220px;
+                position: fixed;
+                top: 168px;
+                left: 32%;
+                z-index: -1;
+            }
+            #wholePage {
+                display: block;
+                line-height:100px; 
+                vertical-align: middle;
+                 
+            }
+            #wholePage p {
+                top: 50%;
+                text-align: center;
+                color: #000000;
+                z-index: 5;
+             }
+             p {
+                 margin-top: 302px;
+                 font-size: 55px;
+                 font-family: "Ebrima";
+                 vertical-align: middle;
+                 line-height: 90px;
+
+             }
+

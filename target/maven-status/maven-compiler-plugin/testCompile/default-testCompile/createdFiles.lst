@@ -1,0 +1,6 @@
+com\sg\foodforall\service\IntoleranceServiceImplTest.class
+com\sg\foodforall\service\DinnerGuestServiceImplTest.class
+com\sg\foodforall\data\DinnerGuestRepositoryTest.class
+com\sg\foodforall\service\AllergyServiceImplTest.class
+com\sg\foodforall\data\AllergyRepositoryTest.class
+com\sg\foodforall\service\FoodAversionServiceImplTest.class

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="icon" href="favicon.ico">
+        <title>Food4All</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/addDinnerGuest.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+
+        </style>
+    </head>
+    <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" >
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a id="title">Food4All</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a></a></li>
+                <li><a></a></li>
+                <li class="active"><a id="glyphA" href="/"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li><a href="#">Add Dinner Guest</a></li>
+                <li><a href="searchDinnerGuest.html">Search for Dinner Guest</a></li>
+                <li><a href="/verifyIngredients.html">Verify Ingredient Restrictions</a></li>
+            </ul>
+        </div>
+    </nav>
+        <hr>
+        <div class =" col-sm-5">
+            <img src="NoneForMe.jpg" alt="none for me" id="noneForMe">
+        </div>
+        <div class =" col-lg-3">
+
+        </div>
+        <div class ="col-sm-4" id="guestEnterForm">
+            
+            <h1>Enter Dinner Guest</h1>
+            <form name="myForm">
+            <div class="form" id="firstName">   
+                
+                    <label for="firstName">*First Name:</label>
+                    <input type="text" id="firstName-text" name="firstName" class="form-control" required>
+                </div>
+                <div class="form" id="lastName">   
+                    <label for="lastName">*Last Name:</label>
+                    <input type="text" id="lastName-text" name="lastName" class="form-control" required>
+                </div>
+                <div class="form" id="eMail">   
+                    <label for="eMail">E-Mail:</label>
+                    <input type="email" id="eMail-text" name="eMail" class="form-control">
+                </div>
+                <div class="form" id="phone">   
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone-text" name="phone" class="form-control">
+                             
+                
+                </div>
+                <hr />
+                <button type="button" class="btn btn-success"  id="submitNewGuest">Submit</button>
+           </form>
+        </div>
+        <div class ="col-sm-12">
+         <button type="button" class="btn btn-success"  id="clearNewGuest">Clear Form</button>
+
+        </div>
+        <div class="col-sm-4" id="allergyAdding">
+            <h2>Allergies</h2>
+            <div class="list-group" id="allergyList"></div>
+            <div class="input-group"  id="allergy">
+                <input type="text" class="form-control" id="allergyInput">
+                <span class="input-group-btn">
+                     <button class="btn btn-default" type="button" id="allergyButton">
+                         <span class="glyphicon glyphicon-plus"></span>
+                     </button>
+                </span>
+             </div>
+        </div>
+        
+        <div class="col-sm-4" id="intoleranceAdding">
+            <h2>Intolerances</h2>
+            <div class="list-group" id="intoleranceList"></div>
+                <div class="input-group"  id="intolerance">
+                    <input type="text" class="form-control" id="intoleranceInput">
+                    <span class="input-group-btn">
+                         <button class="btn btn-default" type="button" id="intoleranceButton">
+                             <span class="glyphicon glyphicon-plus"></span>
+                         </button>
+                    </span>
+             </div>
+        </div>
+        <div class="col-sm-4" id="foodAversionAdding">
+            <h2>Food Aversions</h2>
+            <div class="list-group"  id="foodAversionList"></div> 
+            <div class="input-group"  id="foodAversion">
+                <input type="text" class="form-control" id="foodAversionInput">
+                <span class="input-group-btn">
+                         <button class="btn btn-default" type="button" id="foodAversionButton">
+                             <span class="glyphicon glyphicon-plus"></span>
+                         </button>
+                </span>
+            </div>
+        </div> 
+        <div class="col-md-12">
+        <hr/>
+        </div>
+        <script src="js/jquery-3.0.0.min.js"></script>
+        <script src="js/addDinnerGuest.js"></script>
+    </body>
+
+
+</html>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.sg.foodforall.data.AllergyRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 18.368 s <<< FAILURE! - in com.sg.foodforall.data.AllergyRepositoryTest
+testRepo(com.sg.foodforall.data.AllergyRepositoryTest)  Time elapsed: 1.344 s  <<< ERROR!
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.sg.foodforall.models.Allergy.ingredients, could not initialize proxy - no Session
+	at com.sg.foodforall.data.AllergyRepositoryTest.testRepo(AllergyRepositoryTest.java:37)
+

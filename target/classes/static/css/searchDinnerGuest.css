@@ -1,0 +1,43 @@
+           .navbar {
+                background-color: #000000;
+            }
+            #glyphA {
+                background-color: #000000;
+            }
+            body {
+                font-family: Ebrima; 
+            }
+
+            #title {
+                color: #36c423;
+                font-size: 20px;
+            }
+            .col-lg-3 {
+                width: 500px;
+                margin: auto;
+            }
+            #searchGuest {
+                float: right;
+                width: 20%;
+                background-color: #36c423;
+            }
+            #searchResults button{
+                background-color: #36c423;
+                        
+            }
+            
+            #clearSearch  {
+                background-color: #000000;
+            }
+            #noNuts {
+                margin-top: 50px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                height: auto;
+            }
+            #updateGuestButton {
+                background-color: #36c423;
+            }
+      

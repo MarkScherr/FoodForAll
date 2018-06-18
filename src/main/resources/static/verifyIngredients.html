@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="icon" href="favicon.ico">
+        <title>Food4All</title>
+        <meta charset="UTF-8">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <link rel="stylesheet" href="css/verifyIngredients.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" >
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a id="title">Food4All</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a></a></li>
+                <li><a></a></li>
+                <li class="active"><a id="glyphA" href="/"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li><a href="/addDinnerGuest.html">Add Dinner Guest</a></li>
+                <li><a href="searchDinnerGuest.html">Search for Dinner Guest</a></li>
+                <li><a href="#">Verify Ingredient Restrictions</a></li>
+            </ul>
+        </div>
+        </nav>
+        <br>
+        <br>
+        <div class="col-md-4" id="apiDiv">
+            <h1>Search for Recipes</h1>
+            <div class="input-group" id="recipeSearch">
+                <input type="text" id="recipeSearch-text"  class="form-control">              
+                <span class="input-group-btn">
+                    <button type="button" id="searchForRecipe" class="btn btn-default">Search</button>
+                </span>
+            </div>
+            <br>
+            <br>
+            <br>
+            <hr />
+        </div>
+        
+        <div class="col-md-3">
+            <h1>Add Ingredients</h1>
+           <div class="input-group">
+                <input type="text" id="ingredientAdd-text" class="form-control" required>
+                <span class="input-group-btn">
+                    <button type="button" id="ingredientAdd-button" class="btn btn-default">Add</button>
+                </span>
+            </div>
+            <ul class="list-group" id="ingredientList"></ul>
+        </div>
+        <div class="col-md-5">
+            <br>
+            <div id="validateInputIngredients" style="display: none">
+                   <button type="button" class="btn btn-success" id="validatePersonalInformation" style="background-color: #36c423;">
+                       Validate Personal Ingredients</button>
+            </div>
+            <div  id="dinnerGuestsWithIssues"></div>
+        </div>
+        <div class="col-md-12"><br></div>
+        <script src="js/jquery-3.0.0.min.js"></script>
+        <script src="js/verifyIngredients.js"></script>
+    </body>
+
+
+</html>
